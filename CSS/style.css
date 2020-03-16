@@ -90,8 +90,10 @@ i {
 	padding: 25px 0;
 }
 .navbar .logo {
+	float: left;
 	font-size: 16px;
 	color: rgb(207, 156, 4);
+	
 }
 .navbar .allnav a {
 	color: #4a4a4a;
@@ -99,9 +101,10 @@ i {
 
 .navbar .nav_lists {
 	float: right;
-	margin: 0 0 0 50px;
+	margin: 0 0 0 5%;
+	
 }
-.navbar logo {
+.navbar logo{
 	font-size: 40px;
 }
 .navbar ul li:last-child .shop {
@@ -119,11 +122,7 @@ i {
 .pictures .image {
 	max-width: 60%;
 }
-.scroll_left,
-.scroll_right,
-.image {
-	align-content: ;
-}
+
 .pictures .scroll_left,
 .scroll_right {
 	width: 60px;
@@ -148,13 +147,15 @@ i {
 .pictures .child-left,
 .pictures .child-right {
 	position: absolute;
-	top: 129px;
+	top: 17%;
 }
 .pictures .child-left {
 	left: 0px;
+	z-index: 99;
 }
 .pictures .child-right {
 	right: 0px;
+	z-index: 99;
 }
 .pictures i {
 	font-size: 40px;
@@ -206,7 +207,7 @@ i {
 }
 .services .first-service,
 .services .second-service {
-	margin-right: 52px;
+	margin-right: 4%;
 }
 /* services end  */
 
@@ -214,9 +215,9 @@ i {
 .courses_detail {
 	width: 100%;
 	/* height: 1100px; */
-	max-height: 1100px;
 	background: rgb(218, 216, 216);
 }
+
 
 .upcomming {
 	background-color: black;
@@ -260,7 +261,7 @@ i {
 	padding: 30px 3px;
 }
 .courses_shift .first, .second{
-	margin-right: 52px;
+	margin-right: 4%;
 }
 .courses_shift .first, .second, .third{
 	text-align: justify;
@@ -345,20 +346,21 @@ p {
 	background-color: #ffc312;
 }
 .contact_me .input {
-	margin-right: 10px;
+	width: 24%;
+	margin-right: 5px;
 	padding: 8px 0px 8px 3px;
 	border: none;
-	width: 260px;
+	
 }
 .contact_me .message {
 	padding: 5px 0 70px 2px;
 	margin-top: 13px;
 	border: none;
-	width: 1026px;
+	width: 100%;
 }
 
 .send {
-	width: 205px;
+	width: 23%;
 	background-color: #ffc312;
 	border: none;
 	padding: 8px 0 7px 0;
@@ -371,7 +373,7 @@ p {
 	padding: 70px 0 100px 0;
 	background: rgb(39, 37, 37);
 	color: white;
-	display: flex;
+	display: block;
 	line-height: 1.5;
 }
 .about_us,
@@ -379,7 +381,7 @@ p {
 .help,
 .follow_us {
 	display: inline-block;
-	width: 25%;
+	width: 23%;
 }
 .follow h3 {
 	text-align: left;
@@ -389,8 +391,8 @@ p {
 	color: rgb(179, 177, 177);
 	text-align: left;
 }
-.follow .about_us {
-	margin-right: 100px;
+.follow .about_us, .community, .help {
+	margin-right: 2%;
 }
 .follow a {
 	color: rgb(179, 177, 177);
@@ -435,7 +437,112 @@ button:hover {
 	background-color: rgb(184, 104, 1);
 }
 /* for media  */
-@media only screen and (max-width: 600px) {
+/* for screen (300px-600px)  */
+@media screen and  (max-width: 360px) {
+
+	.topbar{
+		max-height:min-content;
+		padding: 0px 0 36% 0;
+	}
+	.topbar .contact{
+		margin-left: 1%;
+	}
+
+	.topbar .login{
+		margin-right: 25%;
+	}
+	.navbar .nav_lists{
+		padding: 8px 0 10px 0;
+		margin-left: 8px;
+		margin-right: 7px;
+	}
+	.navbar{
+		padding-bottom: 20px;
+	}
+	.navbar .logo{
+		margin-right: 112px;
+	}
+	.navbar .information{
+		margin-right: 2px;
+	}
+	
+
+	
+	.pictures .child-left,
+	.pictures .child-right {
+		top: 208px;
+	}
+	.pictures img{
+		width: 400px;
+		height: 200px;
+	}
+	.pictures .scroll_left, .scroll_right{
+		padding: 80px 0;
+	}
+
+	.services .first-service, .second-service, .third-service{
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+		
+	}
+	.upcomming h2{
+		margin: 0 auto;
+		
+	}
+	.courses_detail .upcomming .dash_line{
+width: 0;
+height: 0;
+margin-left: 0px;
+	}
+	.upcomming .leftbutton{
+		margin-left:-35px;
+	}
+
+	.courses .courses_shift  .first, .second, .third{
+		max-width: 80%;
+		display: block;
+		margin: 0 auto;
+	}
+	.subscribe{
+		padding: 20px 60px;
+	}
+	.introduction{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.contact_me ul li{
+		text-align: left;
+	}
+	
+	.contact_me .left_dash, .right_dash{
+		width: 75px;
+	}
+	.contact_me .send{
+		width: 20.4%;
+	}
+
+
+	.follow .about_us, .community, .help, .follow_us{
+width: 100% !important;
+display: block;
+margin: 25px auto;
+padding: 10px 10px;
+
+
+	}
+	
+	
+	
+
+	.shift{
+	padding-left: 4px;
+padding-right: 4px;
+}
+}
+
+/* for screen (600px-900px)  */
+@media screen and (max-width: 900px) and (min-width: 600px) {
 	.services p {
 		text-align: justify;
 	}
@@ -443,10 +550,14 @@ button:hover {
 	.services .second-service {
 		margin-right: 15px;
 	}
-	.navbar .nav_lists {
+	/* .navbar .nav_lists {
 		float: right;
-		margin: 0 0 0 15px;
-	}
+		margin: 0 0 0 5%;
+	} */
+	.pictures .child-left,
+.pictures .child-right {
+	top: 21%;
+}
 	.pictures .child-left {
 		left: 0;
 		z-index: 99;
@@ -480,21 +591,28 @@ button:hover {
 	.contact_me .message {
 		padding-right: 330px;
 		margin-top: 5px;
-		width: 490px;
+	
 	}
 
-	.contact_me .input {
-		width: 238px;
-		margin-top: 5px;
-	}
-	.contact_me .send {
-		width: 238px;
-	}
+	
+	
 
 	/* universal  */
 	.shift {
-		padding-left: 50px;
-		padding-right: 50px;
+		padding-left: 10px;
+		padding-right: 10px;
 		overflow-x: hidden;
 	}
+}
+
+/* for screen of 1080px  */
+@media only screen and (min-width: 1080px){
+	.shift{
+		padding-right: 10%;
+		padding-left: 10%;
+		
+	}
+	/* .pictures .child-left {
+		left: 0;
+		z-index: 99;} */
 }
