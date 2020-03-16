@@ -608,10 +608,17 @@ padding-right: 4px;
 /* for screen of 1080px  */
 @media only screen and (min-width: 1080px){
 	.shift{
-		padding-right: 10%;
-		padding-left: 10%;
+		padding-right: 200px;
+		padding-left: 200px;
 		
 	}
+
+	@media only screen and (max-width: 1080px){
+		.shift{
+			padding-right: 200px;
+			padding-left: 200px;
+			
+		}
 	/* .pictures .child-left {
 		left: 0;
 		z-index: 99;} */
