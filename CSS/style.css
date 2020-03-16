@@ -147,7 +147,7 @@ i {
 .pictures .child-left,
 .pictures .child-right {
 	position: absolute;
-	top: 17%;
+	top: 110px;
 }
 .pictures .child-left {
 	left: 0px;
@@ -556,7 +556,7 @@ padding-right: 4px;
 	} */
 	.pictures .child-left,
 .pictures .child-right {
-	top: 21%;
+	top: 110px;
 }
 	.pictures .child-left {
 		left: 0;
