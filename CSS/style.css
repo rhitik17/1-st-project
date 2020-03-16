@@ -1,0 +1,500 @@
+html,
+body {
+	overflow-x: hidden;
+	color: #4a4a4a;
+	font-size: 14px;
+}
+table {
+	border: none;
+}
+h1,
+h2,
+h3 {
+	color: #2a2a2a;
+	text-align: center;
+	font-weight: 600;
+}
+h1 i {
+	font-size: 40px;
+}
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+i {
+	font-size: 18px;
+	color: rgb(250, 173, 7);
+	display: inline-flex;
+}
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+/* header starts  */
+/* topbar starts  */
+.topbar {
+	height: 60px;
+	width: 100%;
+	background: black;
+	font-weight: 600;
+}
+.topbar li {
+	display: inline;
+	color: white;
+}
+.topbar .contact {
+	float: left;
+	font-size: 12px;
+	margin: 25px 45px 25px 0;
+	font-weight: 500;
+}
+.topbar .right {
+	float: right;
+}
+.topbar .login a {
+	float: right;
+	margin: 25px 0 25px 20px;
+	color: white;
+	font-size: 12px;
+}
+.topbar .regedit a {
+	background: #ffc312;
+	padding: 7px;
+	margin-top: 15px;
+	color: black;
+
+	/* font-weight: 400; */
+	border-radius: 30px;
+}
+/* topbar section ends  */
+
+/* navbar starts  */
+.navbar {
+	font-weight: 600;
+	width: 100%;
+}
+.navbar li {
+	display: inline;
+}
+.allnav {
+	padding: 25px 0;
+}
+.navbar .logo {
+	font-size: 16px;
+	color: rgb(207, 156, 4);
+}
+.navbar .allnav a {
+	color: #4a4a4a;
+}
+
+.navbar .nav_lists {
+	float: right;
+	margin: 0 0 0 50px;
+}
+.navbar logo {
+	font-size: 40px;
+}
+.navbar ul li:last-child .shop {
+	padding-right: 0 !important;
+}
+/* navbar section ends  */
+
+/* display section starts  */
+.pictures ul li {
+	display: inline-block;
+}
+.pictures img {
+	width: 1451px;
+}
+.pictures .image {
+	max-width: 60%;
+}
+.scroll_left,
+.scroll_right,
+.image {
+	align-content: ;
+}
+.pictures .scroll_left,
+.scroll_right {
+	width: 60px;
+	text-align: center;
+	background-color: #2a2a2af0;
+	align-self: center;
+	padding: 385px 0px 362px 0px;
+	border: none;
+}
+.pictures .scroll_right {
+	float: right;
+}
+.pictures .parent {
+	position: relative;
+	max-width: 1400PX;
+	display: block;
+	margin: 0 auto;
+}
+.pictures img {
+	max-width: 1400PX;
+}
+.pictures .child-left,
+.pictures .child-right {
+	position: absolute;
+	top: 129px;
+}
+.pictures .child-left {
+	left: 0px;
+}
+.pictures .child-right {
+	right: 0px;
+}
+.pictures i {
+	font-size: 40px;
+	color: #c98b05;
+}
+
+.buttom {
+	background-color: #ffc312;
+	width: 100%;
+	padding: 20px 0 40px 0;
+}
+.buttom li {
+	display: inline;
+}
+
+.display .buttom .quote {
+	float: left;
+	color: black;
+}
+.display .buttom .learnmore {
+	float: right;
+}
+
+.display .buttom .learnmore a {
+	color: white;
+	background: black;
+	padding: 8px 20px;
+	border-radius: 25px;
+}
+/* display section ends  */
+
+/* services section starts  */
+.services {
+	max-width: 100%;
+	padding: 50px 0;
+}
+.services h1 {
+	text-align: center;
+}
+.services .first-service,
+.second-service,
+.third-service {
+	width: 30%;
+	text-align: center;
+	display: inline-block;
+}
+.services p {
+	text-align: justify;
+}
+.services .first-service,
+.services .second-service {
+	margin-right: 52px;
+}
+/* services end  */
+
+/* upcomming courses starts  */
+.courses_detail {
+	width: 100%;
+	/* height: 1100px; */
+	max-height: 1100px;
+	background: rgb(218, 216, 216);
+}
+
+.upcomming {
+	background-color: black;
+	color: white;
+	padding: 18px 0;
+}
+.upcomming ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+.upcomming h2 {
+	border-left: 3px solid#FFC312;
+	height: 25px;
+	padding-left: 6px;
+	color: white;
+}
+.upcomming .dash_line {
+	background-color: #ffc312;
+	width: 65px;
+	height: 5px;
+	display: inline-block;
+}
+.upcomming .leftbutton,
+.rightbutton {
+	padding: 3px 0;
+	background-color: #ffc312;
+	width: 40px;
+	border: none;
+}
+.upcomming i {
+	color: #2a2a2a;
+	font-weight: 600;
+	font-size: 28px;
+}
+
+.courses .first,
+.second,
+.third {
+	max-width: 30%;
+	display: inline-block;
+	padding: 30px 3px;
+}
+.courses_shift .first, .second{
+	margin-right: 52px;
+}
+.courses_shift .first, .second, .third{
+	text-align: justify;
+}
+
+/* upcomming courses ends  */
+
+/* subscribe starts  */
+.subscribe {
+	text-align: center;
+	width: 390px;
+	background: #ffc312;
+	padding: 80px 100px;
+	line-height: 2;
+	margin-top: 10px;
+}
+.subscribe input {
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	text-align: center;
+	margin-bottom: 10px;
+	padding: 8px 20px;
+}
+.subscribe a {
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	text-align: center;
+	margin-bottom: 10px;
+	padding: 8px 65px;
+	background-color: black;
+	color: white;
+}
+/* subscribe ends  */
+
+/* introduction starts  */
+.introduction {
+	align-content: center;
+}
+.introduction h2,
+h3,
+p {
+	text-align: center;
+}
+.introduction {
+	width: 100%;
+}
+
+.introduction .inside_content {
+	max-width: 500px;
+	align-content: center;
+	display: block;
+	margin: 0 auto;
+	padding: 30px 0px;
+}
+
+.introduction h3 {
+	color: rgb(226, 156, 4);
+}
+/* introduction ends  */
+
+/* contact us starts  */
+.contact_me {
+	width: 100%;
+	background-color: rgb(167, 165, 167);
+	padding: 80px 0;
+}
+.contact_me ul li {
+	display: inline-block;
+}
+.contact_me ul {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.contact_me .left_dash,
+.right_dash {
+	height: 5px;
+	width: 100px;
+	display: inline-block;
+	background-color: #ffc312;
+}
+.contact_me .input {
+	margin-right: 10px;
+	padding: 8px 0px 8px 3px;
+	border: none;
+	width: 260px;
+}
+.contact_me .message {
+	padding: 5px 0 70px 2px;
+	margin-top: 13px;
+	border: none;
+	width: 1026px;
+}
+
+.send {
+	width: 205px;
+	background-color: #ffc312;
+	border: none;
+	padding: 8px 0 7px 0;
+}
+/* contact us ends  */
+
+/* follow section starts  */
+.follow {
+	width: 100%;
+	padding: 70px 0 100px 0;
+	background: rgb(39, 37, 37);
+	color: white;
+	display: flex;
+	line-height: 1.5;
+}
+.about_us,
+.community,
+.help,
+.follow_us {
+	display: inline-block;
+	width: 25%;
+}
+.follow h3 {
+	text-align: left;
+	color: white;
+}
+.follow p {
+	color: rgb(179, 177, 177);
+	text-align: left;
+}
+.follow .about_us {
+	margin-right: 100px;
+}
+.follow a {
+	color: rgb(179, 177, 177);
+}
+/* follow section ends  */
+
+/* copyright starts  */
+.copyright {
+	padding: 20px 0;
+	text-align: center;
+	color: rgb(179, 177, 177);
+	background: rgb(24, 23, 23);
+	font-size: 10px;
+}
+.copyright i {
+	color: rgb(179, 177, 177);
+	font-size: 14px;
+}
+/* copyright ends  */
+
+/* universal */
+.shift {
+	padding-right: 200px;
+	padding-left: 200px;
+}
+
+p {
+	text-align: left;
+	text-align: justify;
+}
+
+a:active {
+	color: #4d4d;
+}
+a:hover {
+	color: rgb(184, 104, 1) !important;
+}
+button:hover {
+	background-color: rgb(184, 104, 1) !important;
+}
+.send:hover {
+	background-color: rgb(184, 104, 1);
+}
+/* for media  */
+@media only screen and (max-width: 600px) {
+	.services p {
+		text-align: justify;
+	}
+	.services .first-service,
+	.services .second-service {
+		margin-right: 15px;
+	}
+	.navbar .nav_lists {
+		float: right;
+		margin: 0 0 0 15px;
+	}
+	.pictures .child-left {
+		left: 0;
+		z-index: 99;
+	}
+	.pictures .child-right {
+		right: 0;
+		z-index: 99;
+	}
+	.buttom ul {
+		padding: 20px 0 40px;
+	}
+	.services .first-service,
+	.second-service,
+	.third-service {
+		display: flexbox;
+	}
+	.upcomming ul {
+		padding: 10px 10px;
+	}
+	.courses_shift .first, .second{
+		margin-right: 21px!important;
+	}
+	.subscribe{
+		width: 270px;
+		padding: 50px 30px;
+		line-height: 1.5;
+	}
+	.subscribe p{
+		margin: 6px 0 2px 0;
+	}
+	.contact_me .message {
+		padding-right: 330px;
+		margin-top: 5px;
+		width: 490px;
+	}
+
+	.contact_me .input {
+		width: 238px;
+		margin-top: 5px;
+	}
+	.contact_me .send {
+		width: 238px;
+	}
+
+	/* universal  */
+	.shift {
+		padding-left: 50px;
+		padding-right: 50px;
+		overflow-x: hidden;
+	}
+}
